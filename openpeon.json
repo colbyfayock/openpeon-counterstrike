@@ -1,0 +1,116 @@
+{
+  "cesp_version": "1.0",
+  "name": "counterstrike",
+  "display_name": "Counter-Strike",
+  "version": "1.0.0",
+  "description": "Classic Counter-Strike radio commands",
+  "author": {
+    "name": "Contributors",
+    "github": "PeonPing"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["gaming", "counterstrike", "cs"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/lets-go.wav",
+          "label": "Let's go!"
+        },
+        {
+          "file": "sounds/lock-and-load.wav",
+          "label": "Lock and load!"
+        },
+        {
+          "file": "sounds/roger.wav",
+          "label": "Roger that."
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/affirmative.wav",
+          "label": "Affirmative."
+        },
+        {
+          "file": "sounds/roger.wav",
+          "label": "Roger that."
+        },
+        {
+          "file": "sounds/moving-out.wav",
+          "label": "Moving out."
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/clear.wav",
+          "label": "Area clear!"
+        },
+        {
+          "file": "sounds/roger.wav",
+          "label": "Roger that."
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/negative.wav",
+          "label": "Negative."
+        },
+        {
+          "file": "sounds/enemy-spotted.wav",
+          "label": "Enemy spotted!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/need-backup.wav",
+          "label": "Need backup!"
+        },
+        {
+          "file": "sounds/report-in.wav",
+          "label": "Report in."
+        },
+        {
+          "file": "sounds/take-point.wav",
+          "label": "You take the point."
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/hostage-down.wav",
+          "label": "Hostage down!"
+        },
+        {
+          "file": "sounds/fall-back.wav",
+          "label": "Fall back!"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/stick-together.wav",
+          "label": "Stick together."
+        },
+        {
+          "file": "sounds/hold-position.wav",
+          "label": "Hold your position."
+        },
+        {
+          "file": "sounds/negative.wav",
+          "label": "Negative."
+        }
+      ]
+    }
+  }
+}
