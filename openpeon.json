@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "counterstrike",
   "display_name": "Counter-Strike",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Classic Counter-Strike radio commands",
   "author": {
     "name": "Colby Fayock",
